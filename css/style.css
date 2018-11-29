@@ -1,0 +1,143 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* ##### Start Navigation Bar ##### */
+.nav_bar{
+  width: 100%;
+  height: 50px;
+  background: #343A40;
+}
+
+  .nav_menu{
+    width: 60%;
+    height: 50px;
+    float: left;
+  }
+
+    .nav_menu ul{
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      overflow: hidden;
+    }
+
+      .nav_menu ul li{
+        float: left;
+      }
+
+        .nav_menu ul li a{
+          display: block;
+          color: #817A70;
+          text-align: center;
+          padding-left: 25px;
+          padding-top: 15px;
+          text-decoration: none;
+        }
+
+          .nav_menu ul li a:hover{
+            color: white;
+          }
+
+  .nav_form{
+    width: 40%;
+    height: 50px;
+    float: right;
+  }
+
+    .nav_form form{
+      float: right;
+      padding-right: 25px;
+      padding-top: 5px;
+    }
+
+    .nav_form input[type=text]{
+      padding: 4px;
+      height: 25px;
+      width: 250px;
+      border-radius: 3px;
+      border: none;
+
+    }
+
+    .nav_form input[type=submit]{
+      height: 35px;
+      background: #343A40;
+      border: 2px solid #2A9744;
+      border-radius: 3px;
+      color: #2A9744;
+      padding-left: 20px;
+      padding-right: 20px;
+      cursor: pointer;
+    }
+/* ##### End Navigation Bar ##### */
+
+/* ##### Start Home Section ##### */
+.home{
+  width: 100%;
+  height: 350px;
+  background: #E9ECEF;
+}
+
+  .home h1{
+    font-size: 60px;
+    font-weight: lighter;
+    margin-top: 80px;
+    margin-bottom: 0px;
+  }
+
+  .home p{
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .home input[type=submit]{
+    height: 40px;
+    background: #017BFF;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+/* ##### End Home Section ##### */
+
+/* ##### Start Headings Section ##### */
+.headings{
+  width: 100%;
+  height: 250px;
+}
+
+  .headings_box{
+    width: 33.33%;
+    height: 250px;
+    float: left;
+  }
+
+    .headings_box p{
+      text-align: left;
+      padding-right: 30px;
+    }
+
+    .headings_box input[type=submit]{
+      height: 30px;
+      background: #6C757D;
+      border: none;
+      border-radius: 3px;
+      color: #ffffff;
+      padding-left: 10px;
+      padding-right: 10px;
+      cursor: pointer;
+      font-size: 15px;
+    }
+/* ##### End Headings Section ##### */
