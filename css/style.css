@@ -76,6 +76,10 @@ body{
       padding-right: 20px;
       cursor: pointer;
     }
+
+    .nav_form input[type=submit]:hover{
+      background: #52575C;
+    }
 /* ##### End Navigation Bar ##### */
 
 /* ##### Start Home Section ##### */
@@ -110,6 +114,10 @@ body{
     cursor: pointer;
     font-size: 18px;
   }
+
+  .home input[type=submit]:hover{
+    background: #00A2FF;
+  }
 /* ##### End Home Section ##### */
 
 /* ##### Start Headings Section ##### */
@@ -139,5 +147,9 @@ body{
       padding-right: 10px;
       cursor: pointer;
       font-size: 15px;
+    }
+
+    .headings_box input[type=submit]:hover{
+      background: #8D9296;
     }
 /* ##### End Headings Section ##### */
